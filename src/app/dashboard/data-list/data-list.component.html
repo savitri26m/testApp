@@ -1,0 +1,24 @@
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">fileName</th>
+      <th scope="col">first_name</th>
+      <th scope="col">last_name</th>
+      <th scope="col">email</th>
+      <th scope="col">gender</th>
+      <th scope="col">ip_address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of dataList">
+      <th scope="row">{{data.fileName}}</th>
+      <td>{{data.first_name}}</td>
+      <td>{{data.last_name}}</td>
+      <td>{{data.email}}</td>
+      <td>{{data.gender}}</td>
+      <td>{{data.ip_address}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
