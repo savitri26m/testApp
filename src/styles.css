@@ -4,3 +4,14 @@ body{
     margin: 0;
     /* overflow-x: hidden; */
 }
+
+.bg-dark-cust {
+    background: #524c4c;
+}
+
+.table td, .table th {
+    border: 1px solid #dee2e6;
+}
+
+.table{ margin-top: 20px; background: #fff;}
+.table thead th{ background-color: #f5f5f5;}
